@@ -27,6 +27,9 @@ const App = () => {
 
   return (
     <>
+      <div style={{textAlign:"center"}}>
+        <h1 style={{fontSize:40,textDecoration:"underline"}}>Reactjs Calculator</h1>
+      </div>
       <div className="container">
         <form>
           <input type="text" value={result} />
